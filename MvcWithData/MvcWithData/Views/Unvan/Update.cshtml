@@ -1,0 +1,15 @@
+﻿@model MvcWithData.Models.Classes.Unvan
+<h2></h2>
+<br />
+
+<div class="row">
+    <div class="col-md-7">
+        <form method="post">
+
+            <input class="form-control" name="UnvanId" type="hidden" value="@Model.UnvanId" />
+            <label>Unvan</label>
+            <input class="form-control" name="UnvanAd" type="text" value="@Model.UnvanAd" />
+            <input class="btn btn-success" type="submit" value="Güncelle" />
+        </form>
+    </div>
+</div>

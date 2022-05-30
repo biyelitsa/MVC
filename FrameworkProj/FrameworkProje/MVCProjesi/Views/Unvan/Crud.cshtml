@@ -1,0 +1,17 @@
+﻿@using MVCProjesi.Models
+@model UnvanModel
+
+<h2>@Model.Baslik</h2>
+<div class="row">
+    <div class="col-md-7">
+        <form method="post">
+
+            <input class="form-control" name="UnvanId" type="hidden" value="@Model.Unvan.UnvanId" readonly/>
+            <label>Ad</label>
+            <input class="form-control" name="UnvanAd" type="text" value="@Model.Unvan.UnvanAd" />
+            <input class="@Model.BtnClass" type="submit" value="@Model.BtnVal" />
+            @*<input class="btn btn-warning" type="submit" value="İptal" formaction="list" />*@
+            <a class="btn btn-warning" href="/Unvan/List">İptal</a>
+        </form>
+    </div>
+</div>

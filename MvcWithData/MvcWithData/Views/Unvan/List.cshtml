@@ -1,0 +1,32 @@
+﻿@model List<MvcWithData.Models.Classes.Unvan>
+
+<div class="row">
+    <div class="col-md-7">
+        <form method="post" action="/Unvan/Create">
+            <a class="btn btn-primary" href="/Unvan/Create">Yeni Kayıt</a>
+        </form>
+        <h2>Unvan Listesi</h2>
+        <hr />
+        <table class="table table-bordered">
+            <tr>
+                <th>Id</th>
+                <th>Unvan</th>
+                <th>Sil</th>
+                <th>Güncelle</th>
+            </tr>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>@item.UnvanId</td>
+                        <td>@item.UnvanAd</td>
+                        <td><a class="btn btn-danger" href="/Unvan/Delete/@item.UnvanId">Sil</a></td>
+                        <td><a class="btn btn-success" href="/Unvan/Update/@item.UnvanId">Güncelle</a></td>
+
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>
+

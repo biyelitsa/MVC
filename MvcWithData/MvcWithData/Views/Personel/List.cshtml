@@ -1,0 +1,34 @@
+﻿@model List<MvcWithData.dtos.PersonelDto>
+
+<div class="row">
+    <div class="col-md-7">
+        <form method="post" action="/Personel/Create">
+            <a class="btn btn-primary" href="/Personel/Create">Yeni Kayıt</a>
+        </form>
+        <h2>Personel Listesi</h2>
+        <hr />
+        <table class="table table-bordered">
+            <tr>
+                <th>Id</th>
+                <th>Ad</th>
+                <th>İkamet</th>
+                <th>Uyruk</th>
+                <th>Yönetici</th>
+            </tr>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                <tr>
+                    <td>@item.PersonelId</td>
+                    <td>@item.AdSoy</td>
+                    <td>@item.Ikamet</td>
+                    <td>@item.Uyruk</td>
+                    <td>@item.Yonetici</td>
+                    <td><a class="btn btn-danger" href="/Personel/Delete/@item.PersonelId">Sil</a></td>
+                    <td><a class="btn btn-success" href="/Personel/Update/@item.PersonelId">Güncelle</a></td>
+                </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>

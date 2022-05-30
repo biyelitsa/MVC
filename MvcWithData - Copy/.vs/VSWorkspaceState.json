@@ -1,0 +1,14 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\MvcWithData",
+    "\\MvcWithData\\Controllers",
+    "\\MvcWithData\\Models",
+    "\\MvcWithData\\Models\\Classes",
+    "\\MvcWithData\\Views",
+    "\\MvcWithData\\Views\\Home",
+    "\\MvcWithData\\Views\\Unvan"
+  ],
+  "SelectedNode": "\\MvcWithData\\Views\\Home\\Index.cshtml",
+  "PreviewInSolutionExplorer": false
+}

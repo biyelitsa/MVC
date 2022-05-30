@@ -1,0 +1,9 @@
+C:\301Sabah\MVC\FrameworkProj\FrameworkProje\Framework\bin\Debug\Framework.dll
+C:\301Sabah\MVC\FrameworkProj\FrameworkProje\Framework\bin\Debug\Framework.pdb
+C:\301Sabah\MVC\FrameworkProj\FrameworkProje\Framework\bin\Debug\Dapper.dll
+C:\301Sabah\MVC\FrameworkProj\FrameworkProje\Framework\bin\Debug\Dapper.xml
+C:\301Sabah\MVC\FrameworkProj\FrameworkProje\Framework\obj\Debug\Framework.csproj.AssemblyReference.cache
+C:\301Sabah\MVC\FrameworkProj\FrameworkProje\Framework\obj\Debug\Framework.csproj.CoreCompileInputs.cache
+C:\301Sabah\MVC\FrameworkProj\FrameworkProje\Framework\obj\Debug\Framework.csproj.CopyComplete
+C:\301Sabah\MVC\FrameworkProj\FrameworkProje\Framework\obj\Debug\Framework.dll
+C:\301Sabah\MVC\FrameworkProj\FrameworkProje\Framework\obj\Debug\Framework.pdb

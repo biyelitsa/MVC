@@ -1,0 +1,17 @@
+﻿@using MVCProjesi.Models
+@model UlkeModel
+
+<h2>@Model.Baslik</h2>
+<div class="row">
+    <div class="col-md-7">
+        <form method="post">
+            <label>Id</label>
+            <input class="form-control" name="UlkeId" type="hidden" value="@Model.Ulke.UlkeId" readonly />
+            <label>Ad</label>
+            <input class="form-control" name="UlkeAd" type="text" value="@Model.Ulke.UlkeAd" />
+            <input class="@Model.BtnClass" type="submit" value="@Model.BtnVal" />
+            @*<input class="btn btn-warning" type="submit" value="İptal" formaction="list" />*@
+            <a class="btn btn-warning" href="/Ulke/List">İptal</a>
+        </form>
+    </div>
+</div>
